@@ -10,6 +10,29 @@ body {
     background-color: #f8f9fa;
     color: #333;
 }
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.product-card {
+    border: none;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.03); 
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px); 
+}
+
+.btn {
+    background: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    border-radius: 0; /* Sharp edges for a modern look */
+}
 
 .container {
     max-width: 1200px;
@@ -166,3 +189,4 @@ footer {
     color: #fff;
     margin-top: 3rem;
 }
+
