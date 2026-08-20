@@ -72,3 +72,28 @@ window.addEventListener('click', (e) => {
 
 // Initialize
 renderProducts();
+
+
+
+function checkoutWhatsApp() {
+    if (cart.length === 0) return alert("Your cart is empty!");
+    
+    let text = "Hello Netriva Creations! I would like to place an order:\n\n";
+    let total = 0;
+    
+    cart.forEach((item) => {
+        text += `▪ ${item.name} ($${item.price})\n`;
+        total += item.price;
+    });
+    
+    text += `\n*Total: $${total.toFixed(2)}*\n\nPlease let me know the payment and delivery details.`;
+    
+    // Replace with your full phone number in international format (omit +, 0s, or dashes)
+    const waPhone = "919876543210"; 
+    
+    // Generates the secure WhatsApp API link
+    const encodedText = encodeURIComponent(text);
+    const waLink = `https://wa.me/${waPhone}?text=${encodedText}`;
+    
+    window.open(waLink, '_blank');
+}
