@@ -89,7 +89,7 @@ function checkoutWhatsApp() {
     text += `\n*Total: $${total.toFixed(2)}*\n\nPlease let me know the payment and delivery details.`;
     
     // Replace with your full phone number in international format (omit +, 0s, or dashes)
-    const waPhone = "919876543210"; 
+    const waPhone = "91 9345472634"; 
     
     // Generates the secure WhatsApp API link
     const encodedText = encodeURIComponent(text);
