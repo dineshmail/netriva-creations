@@ -1,9 +1,9 @@
 // Product Data
 const products = [
-    { id: 1, name: "Classic Cotton Tee", price: 29.99, image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=500&q=60" },
-    { id: 2, name: "Netriva Denim Jacket", price: 89.99, image: "https://images.unsplash.com/photo-1551028719-01c1eb56211d?auto=format&fit=crop&w=500&q=60" },
-    { id: 3, name: "Urban Cargo Pants", price: 59.99, image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=500&q=60" },
-    { id: 4, name: "Essential Hoodie", price: 49.99, image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?auto=format&fit=crop&w=500&q=60" }
+    { id: 1, name: "Classic Cotton Tee", price: 29.99, image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80" },
+    { id: 2, name: "Netriva Denim Jacket", price: 89.99, image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=500&q=80" },
+    { id: 3, name: "Urban Cargo Pants", price: 59.99, image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80" },
+    { id: 4, name: "Essential Hoodie", price: 49.99, image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=500&q=80" }
 ];
 
 let cart = [];
