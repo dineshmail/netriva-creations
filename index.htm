@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netriva Creations | Premium Clothing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Netriva Creations</div>
+        <div class="cart-icon" id="cartIcon">
+            🛒 Cart (<span id="cartCount">0</span>)
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Elevate Your Style</h1>
+            <p>Discover the latest trends from Netriva Creations.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Product Grid -->
+    <main id="products" class="container">
+        <h2>New Arrivals</h2>
+        <div class="product-grid" id="productGrid">
+            <!-- Products will be injected here by JavaScript -->
+        </div>
+    </main>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-content">
+            <span class="close-cart" id="closeCart">&times;</span>
+            <h2>Your Cart</h2>
+            <div id="cartItems"></div>
+            <div class="cart-total">
+                <h3>Total: $<span id="totalPrice">0.00</span></h3>
+                <button class="btn checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Netriva Creations. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
